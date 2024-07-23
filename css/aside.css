@@ -19,7 +19,7 @@
   box-shadow: 10px 10px 8px #888888;
   margin-left: 140px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .uni-pic, .am-pic, .pm-pic, .s2i-pic{
     display: none;
   }
