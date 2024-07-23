@@ -1,0 +1,19 @@
+.footer{
+  font-family: Bebas Neue, Oswald, 'Times New Roman';
+  background-color: rgb(165, 49, 49);
+  color: rgb(255, 247, 237);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1vh 5vw;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+.footer-socials{
+  padding-left: 10%;
+}
+@media screen and (max-width: 768px) {
+  .footer-socials {
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,29 @@
+.aside{
+  font-size: 30px;
+  margin: 50px 0 50px 25px;
+  font-weight: 500;
+}
+.aside-resume, .second-resume{
+  display: grid;
+  grid-template-columns: minmax(2rem, 1fr) minmax(2rem, 1fr);
+  row-gap: 3rem;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+}
+.uni-pic, .am-pic, .pm-pic, .s2i-pic{
+  width: 320px;
+  height: 250px;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 10px 10px 8px #888888;
+  margin-left: 140px;
+}
+@media screen and (max-width: 768px) {
+  .uni-pic, .am-pic, .pm-pic, .s2i-pic{
+    display: none;
+  }
+  .aside-resume, .second-resume{
+    display: block;
+  }
+}
